@@ -1,7 +1,18 @@
 body {
   margin: 0;
-  padding: 20px;
+  padding: 0;
   border: 0;
+  line-height: 1.5em;
+  background-color: red;
+}
+
+main {
+  display: block;
+  background-color: #fff;
+  width: 50%;
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 blockquote {
