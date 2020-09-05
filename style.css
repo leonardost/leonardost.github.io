@@ -25,3 +25,10 @@ h3 {
 blockquote {
   font-style: italic;
 }
+
+img {
+  width: 180px;
+  margin: 15px;
+  margin-left: 0;
+  
+}
