@@ -14,7 +14,7 @@ main {
   width: 50%;
   min-width: 600px;
   margin: 0 auto;
-  padding: 40px 70px;
+  padding: 30px 70px 40px 70px;
 }
 
 blockquote {
