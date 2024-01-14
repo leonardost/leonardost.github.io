@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blog do Leo</title>
+    <link>https://leotaba.blog/blog/tags/</link>
+    <description>Recent content in Tags on Blog do Leo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 14 Jan 2024 16:19:30 -0300</lastBuildDate>
+    <atom:link href="https://leotaba.blog/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
