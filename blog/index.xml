@@ -9,13 +9,6 @@
     <lastBuildDate>Sun, 14 Jan 2024 16:19:30 -0300</lastBuildDate>
     <atom:link href="https://leotaba.blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lista de jogos</title>
-      <link>https://leotaba.blog/blog/lista-de-jogos/</link>
-      <pubDate>Sun, 14 Jan 2024 20:35:34 -0300</pubDate>
-      <guid>https://leotaba.blog/blog/lista-de-jogos/</guid>
-      <description> Jogando: nenhum Na fila: Unsighted Hollow Knight Concluídos 2024 Ann - 2024-01-06 2023 Unpacking </description>
-    </item>
-    <item>
       <title>Have you played...? Ann</title>
       <link>https://leotaba.blog/blog/posts/2024-01-14-ann/</link>
       <pubDate>Sun, 14 Jan 2024 16:19:30 -0300</pubDate>
@@ -35,20 +28,6 @@
       <pubDate>Sun, 30 Apr 2023 01:43:00 -0300</pubDate>
       <guid>https://leotaba.blog/blog/posts/2023-04-30-piano-cover-omori-by-your-side/</guid>
       <description>Composed by Pedro Silva Arrangement by salmonghoul on MuseScore &amp;ldquo;You&amp;rsquo;ll forgive yourself&amp;hellip; Won&amp;rsquo;t you&amp;hellip; SUNNY?&amp;rdquo;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://leotaba.blog/blog/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://leotaba.blog/blog/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&#xA;Hugo makes use of a variety of open source projects including:&#xA;https://github.com/yuin/goldmark https://github.</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>https://leotaba.blog/blog/contact/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://leotaba.blog/blog/contact/</guid>
-      <description> github.com/nanxiaobei lee.so </description>
     </item>
   </channel>
 </rss>
