@@ -1,7 +1,7 @@
 {
 	"name": "Cubics Adventure",
 	"short_name": "Cubics Adventure",
-	"description": "",
+	"description": "Cubic's Ad-venture Demo",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
