@@ -1,2 +1,4 @@
 .sass-cache
+.DS_Store
 images/.DS_Store
+etc/.DS_Store
