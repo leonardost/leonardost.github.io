@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+        }
+
+        #game-container {
+            width: 800px;
+            height: 600px;
+            position: relative;
+            background-color: #000;
+            overflow: hidden;
+        }
+
+        #background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #character {
+            position: absolute;
+            bottom: 20%;
+            transform: translateX(-50%);
+            max-height: 70%;
+            z-index: 2;
+            transition: opacity 0.3s ease-in-out, left 0.3s ease-in-out, right 0.3s ease-in-out;
+        }
+
+        #character.position-left {
+            left: 25%;
+        }
+
+        #character.position-right {
+            left: 75%;
+        }
+
+        #character.position-center {
+            left: 50%;
+        }
+
+        #dialog-box {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            z-index: 3;
+        }
+
+        #character-name {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+
+        #dialog-text {
+            line-height: 1.5;
+        }
+
+        #next-button {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #ffcc00;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <img id="background" src="" alt="Background">
+        <img id="character" src="" alt="Character">
+        <div id="dialog-box">
+            <div id="character-name">Character Name</div>
+            <div id="dialog-text">Dialog text will appear here...</div>
+            <button id="next-button">Next ▶</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
