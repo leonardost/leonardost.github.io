@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7PXFFZ0JVM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7PXFFZ0JVM');
+    </script>
+    <script defer src="/js/custom-cusdis.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Leonardo Sameshima Taba">
+    
+    <meta name="description" content="As a professional software developer, it&rsquo;s impossible to ignore the impact large language models (LLMs) are having on the industry. I toyed with the first versions of ChatGPT back in 2022/2023 and, apart from it being a novelty and a really good chat bot, I wasn&rsquo;t very impressed at the time. Especially given how often it hallucinated and gave blatantly incorrect responses as if they were correct. GitHub&rsquo;s Copilot was promising, and it did help generate boilerplate code and fill gaps based on prompts. However, I started to get really impressed when I started testing Claude.">
+    
+
+    
+    <link rel="preload stylesheet" as="style" href="https://leotaba.blog/main.min.css">
+    <link rel="icon" href="https://leotaba.blog/favicon.ico">
+    <link rel="canonical" href="https://leotaba.blog/posts/2025-03-16-creating-a-visual-novel-with-ai/">
+    
+
+    <title>Creating a visual novel with AI - Leo&#39;s blog</title>
+</head>
+
+    <body>
+        <header>
+  <nav>
+      <div>
+          <a href="https://leotaba.blog/">Leo&#39;s blog</a>
+      </div>
+      <a href="/about/">About</a>
+      <a href="/game-list/">Game list</a>
+  </nav>
+</header>
+
+        
+
+
+<main>
+
+    <header>
+        <h1 >Creating a visual novel with AI</h1>
+        
+        
+        <time datetime="2025-03-16 21:19">
+            Mar 16, 2025
+        </time>
+        
+        
+    </header>
+
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai1.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai1-resized.png" alt="First scene of the visual novel">
+    </a>
+    <figcaption>First scene of the visual novel</figcaption>
+</figure>
+
+</p>
+<p>As a professional software developer, it&rsquo;s impossible to ignore the impact large language models (LLMs) are having on the industry. I toyed with the first versions of <a href="https://en.wikipedia.org/wiki/ChatGPT">ChatGPT ⤴</a> back in 2022/2023 and, apart from it being a novelty and a really good chat bot, I wasn&rsquo;t very impressed at the time. Especially given how often it hallucinated and gave blatantly incorrect responses as if they were correct. GitHub&rsquo;s <a href="https://en.wikipedia.org/wiki/GitHub_Copilot">Copilot ⤴</a> was promising, and it did help generate boilerplate code and fill gaps based on prompts. However, I started to get <em>really</em> impressed when I started testing <a href="https://en.wikipedia.org/wiki/Claude_(language_model)">Claude ⤴</a>.</p>
+<p>Claude is an LLM trained specifically for writing code. I&rsquo;ve been using it for a few months now to see how far it can go, and I&rsquo;ve been also checking how other people are using it. Despite my initial skepticism a few years back, I do believe AI can be a huge help for developers, and I believe people who don&rsquo;t know how to use it will be at a disadvantage.</p>
+<p>I like to do small, pet projects to learn new things. To test and practice using Claude, I decided to create a very simple visual novel game in HTML and javascript, and wanted to see how quickly I could get that done. Long story short, in around 2 hours I had a very simple thing running. You can check it out <a href="https://leotaba.blog/etc/vn">here ⤴</a>.</p>
+<h2 id="development">Development</h2>
+<p>For this experiment, I used the <a href="https://www.cursor.com/">Cursor IDE ⤴</a> with the Claude 3.5 Sonnet model.</p>
+<p>So this was my initial prompt for Claude:</p>
+<blockquote>
+<p>I want to create a visual novel game that runs in a web browser using javascript. Create an HTML file and JS script to begin.</p>
+</blockquote>
+<p>Note that I didn&rsquo;t even specify what a &ldquo;visual novel game&rdquo; is. This was Claude&rsquo;s response:</p>
+<blockquote>
+<p>I&rsquo;ll help you create a visual novel game that runs in the browser. I&rsquo;ll start by creating the basic HTML structure and JavaScript files. The game will need a way to display text, characters, backgrounds, and handle user interactions.</p>
+</blockquote>
+<p>This blew my mind. Claude already &ldquo;knows&rdquo; what a visual novel type game is, and it generated an HTML file with elements to display a background, characters, a dialog box and text, alongside a main game script in javascript. And, incredibly, it worked. I asked it to write some example scenes, and it came up with this:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/1-u_gq2eNyg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>Not too bad, right? Despite the weird flickering broken background image, it runs just fine. I love how it generated incredibly cliché names: Sakura High School, Mei Tanaka and Yuki Sato. These are probably the most generic Japanese names around 😂 in any case, it&rsquo;s a perfectly serviceable setting.</p>
+<p>After that, I decided to generate some images to give the &ldquo;game&rdquo; more visual appeal. I really don&rsquo;t know how to use those image generation AIs, so I just went with one that I already knew, Dall-E, which now is <a href="https://openart.ai/">openart.ai ⤴</a> apparently. I just used free credits and generated a blue haired, shy <em>meganekko</em> to be Mei; a brown haired, more assertive type to be Yuki, the class rep; an outside school shot to be the scenario-setting shot; and a classical classroom scenario. I&rsquo;ve put more details about the image generation at the end of this post.</p>
+<p>After adding these images to the project, I talked with Claude to make small improvements, like not doing fade-ins and fade-outs between each scene if the background didn&rsquo;t change, moving characters to the left or to the right, small things like that. I also wanted to add some personal lines at the end, so I added some lines for the Developer character at the ending.</p>
+<p>This is the final result:</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/i-5veR6XpdQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="final-remarks">Final remarks</h2>
+<p>I&rsquo;m pretty satisfied with this small experiment.</p>
+<p>If I had to code everything by hand, I&rsquo;d probably easily spend half a day or more doing everything. I&rsquo;d have to think first about how to show the images in the game screen, how to handle user input, how to draw a dialog box at the bottom, how to show the character portraits, etc etc. Each of these steps is not hard, but it demands time and some research. It&rsquo;s code that&rsquo;s at the core of a visual novel game, but it&rsquo;s not the most important part, which should be the story. So I was amazed at how Claude basically generated all of that base code in one go, from the first prompt.</p>
+<p>One of the metaphors I read that I thought made a lot of sense is, &ldquo;AI is like a mecha for your brain&rdquo;. It enhances your capabilities. It doesn&rsquo;t always generate usable or correct code, but it does an awesome job at generating boilerplate code and generating simple things that <em>you shouldn&rsquo;t have to spend time doing</em>. I know I can draw a dialog box at the bottom of the screen with rounded corners, so I shouldn&rsquo;t have to spend time actually implementing it and remembering/researching all the related CSS properties. It&rsquo;s also great to discuss different ideas and approaches about how to do something.</p>
+<p>I believe that AI will bring a huge productivity boost to many, if not all, areas of knowledge. I&rsquo;m not sure of all the societal impact it might have, but as a software developer, I&rsquo;m really impressed by how far it has come along. And it will only get better/more scary from here.</p>
+<h2 id="extra-image-generation">Extra: Image generation</h2>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai2.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai2-resized.png" alt="Screenshot showing images I generated in openart.ai">
+    </a>
+    <figcaption>I don&#39;t know what I&#39;m doing</figcaption>
+</figure>
+
+</p>
+<p>I clearly have no idea how to properly use these image generation AIs. I just mess around with prompts, models and pick whatever I think&rsquo;s closer to what I wanted. Sometimes I try to be more specific with the prompt, but I&rsquo;m not sure how that influences the actual generation. For example, for the developer character, I just wanted a black cat with classes, like, an actual cat, not a catgirl. I clearly failed miserably because I only got one image like that. The generated catgirls were cute though, and I really liked this one:</p>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai3.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai3-resized.png" alt="Dark-skinned cat-girl with glasses">
+    </a>
+    <figcaption>She has personality! Love the cats too</figcaption>
+</figure>
+
+</p>
+<p>Image prompts I used:</p>
+<h3 id="character-mei-tanaka">Character: Mei Tanaka</h3>
+<blockquote>
+<p>anime, girl, detailed, dark blue hair, glasses, shy, very detailed, visual novel style, school uniform, transparent background, body from waist up, calm expression</p>
+</blockquote>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai4.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai4-resized.png" alt="Mei Tanaka">
+    </a>
+    <figcaption>Stereotypical shy meganekko protagonist</figcaption>
+</figure>
+
+</p>
+<h3 id="character-yuki-sato">Character: Yuki Sato</h3>
+<blockquote>
+<p>anime, girl, detailed, brown long hair, assertive, extrovert, very detailed, visual novel style, school uniform, transparent background, body from waist up, smiling</p>
+</blockquote>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai5.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai5-resized.png" alt="Yuki Sato">
+    </a>
+    <figcaption>Stereotypical assertive class representative</figcaption>
+</figure>
+
+</p>
+<p>Her uniform doesn&rsquo;t even match Mei&rsquo;s, it&rsquo;s almost the opposite color 😂</p>
+<h3 id="scenario-outside-school">Scenario: outside school</h3>
+<blockquote>
+<p>scenario, visual novel scenario, background, outside school, no people, blue sky, few clouds, peaceful, outside school grounds, school gate, Japanese school, no characters, empty</p>
+</blockquote>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai6.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai6-resized.png" alt="Outside school scenario">
+    </a>
+    <figcaption>Stereotypical outside high school scenario</figcaption>
+</figure>
+
+</p>
+<p>I didn&rsquo;t like this one, it doesn&rsquo;t look like a Japanese high school <em>at all</em>. But I think it&rsquo;s the less bad one I was able to get.</p>
+<h3 id="scenario-classroom">Scenario: classroom</h3>
+<blockquote>
+<p>scenario, visual novel scenario, background, inside school, classroom, Japanese classroom, no people, student desks, blackboard, daylight, class starting</p>
+</blockquote>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai7.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai7-resized.png" alt="Classroom scenario">
+    </a>
+    <figcaption>Stereotypical classroom scenario</figcaption>
+</figure>
+
+</p>
+<p>This classroom looks <em>really</em> weird, with the desks misaligned and all the way by the wall with the black board. Not to mention all the blurred gibberish written on it.</p>
+<h3 id="chacater-cat">Chacater: cat</h3>
+<blockquote>
+<p>animal, cat, black cat with glasses, upstanding, anime style, yellow eyes, thick rimmed glasses, alone, transparent background</p>
+</blockquote>
+<p>
+
+    
+    
+
+
+<figure>
+    <a href="/images/2025-03-16-creating-a-visual-novel-with-ai8.png">
+        <img src="/images/2025-03-16-creating-a-visual-novel-with-ai8-resized.png" alt="Neko Preto">
+    </a>
+    <figcaption>Stereotypical cat with glasses developer</figcaption>
+</figure>
+
+</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li>You can play the final game <a href="https://leotaba.blog/etc/vn">here ⤴</a>, from the comfort of your browser.</li>
+<li>All the code and assets for this project are in my <a href="https://github.com/leonardost/visual-novel-generated-with-ai">GitHub account ⤴</a>.</li>
+<li>You can also find the full chat transcript with Claude in the GitHub project <a href="https://github.com/leonardost/visual-novel-generated-with-ai/blob/main/chat-transcript.md">here ⤴</a> (generated by the <a href="https://specstory.com/">Specstory</a> Cursor extension - I didn&rsquo;t know Cursor didn&rsquo;t have a native way of exporting its chats, which I found a little disappointing)</li>
+</ul>
+
+
+    
+    
+    <section class="tags">
+         
+        <a href="https://leotaba.blog/tags/software-development/">software development</a>
+         
+        <a href="https://leotaba.blog/tags/game-development/">game development</a>
+         
+        <a href="https://leotaba.blog/tags/ai/">ai</a>
+        
+    </section>
+    
+
+    
+    
+    
+    
+    <nav class="post-navigation">
+        
+        
+        <a class="previous" href="https://leotaba.blog/posts/2025-02-22-inio-asano/">
+            <span>Have you read...? Mangas from Inio Asano</span>
+            <span>→</span>
+        </a>
+    
+    </nav>
+    
+    
+
+
+
+<h2 id="comments">Comments</h2>
+    <div
+        id="cusdis_thread"
+        data-host="https://cusdis.com"
+        data-app-id="3a9ce9a3-b4f1-4820-b7b6-d70856de21bf"
+        data-page-id="5e9306226fcffaef2f1217ded4964b10"
+        data-page-url="https://leotaba.blog/posts/2025-03-16-creating-a-visual-novel-with-ai/"
+        data-page-title="Creating a visual novel with AI">
+    </div>
+    
+    
+</main>
+
+
+        <footer>
+    <a href="https://gohugo.io/" rel="noopener" target="_blank">Powered by Hugo</a>
+</footer>
+
+    </body>
+</html>
