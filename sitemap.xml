@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://leotaba.blog/tags/have-you-played/</loc>
+    <lastmod>2025-06-03T04:10:00-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/</loc>
+    <lastmod>2025-06-03T04:10:00-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/tags/mini-reviews/</loc>
+    <lastmod>2025-06-03T04:10:00-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/posts/2025-06-03-mini-reviews-2/</loc>
+    <lastmod>2025-06-03T04:10:00-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/posts/</loc>
+    <lastmod>2025-06-03T04:10:00-03:00</lastmod>
+  </url><url>
     <loc>https://leotaba.blog/tags/ai/</loc>
     <lastmod>2025-03-16T21:19:00-03:00</lastmod>
   </url><url>
@@ -9,12 +24,6 @@
     <lastmod>2025-03-16T21:19:00-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/tags/game-development/</loc>
-    <lastmod>2025-03-16T21:19:00-03:00</lastmod>
-  </url><url>
-    <loc>https://leotaba.blog/</loc>
-    <lastmod>2025-03-16T21:19:00-03:00</lastmod>
-  </url><url>
-    <loc>https://leotaba.blog/posts/</loc>
     <lastmod>2025-03-16T21:19:00-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/tags/software-development/</loc>
@@ -26,9 +35,6 @@
     <loc>https://leotaba.blog/posts/2025-02-22-inio-asano/</loc>
     <lastmod>2025-02-22T18:00:00-03:00</lastmod>
   </url><url>
-    <loc>https://leotaba.blog/tags/have-you-played/</loc>
-    <lastmod>2025-02-01T21:14:00-03:00</lastmod>
-  </url><url>
     <loc>https://leotaba.blog/posts/2025-02-01-sea-of-stars/</loc>
     <lastmod>2025-02-01T21:14:00-03:00</lastmod>
   </url><url>
@@ -37,9 +43,6 @@
   </url><url>
     <loc>https://leotaba.blog/posts/2025-01-11-un-squadron/</loc>
     <lastmod>2025-01-11T00:35:00-03:00</lastmod>
-  </url><url>
-    <loc>https://leotaba.blog/tags/mini-reviews/</loc>
-    <lastmod>2025-01-01T22:05:00-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/posts/2025-01-01-mini-reviews-1/</loc>
     <lastmod>2025-01-01T22:05:00-03:00</lastmod>
@@ -96,7 +99,7 @@
     <lastmod>2024-02-09T23:44:37-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/game-list/</loc>
-    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/posts/2024-01-14-ann/</loc>
     <lastmod>2024-02-21T00:00:00-03:00</lastmod>
