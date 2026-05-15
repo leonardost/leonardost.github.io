@@ -6,8 +6,15 @@
     <description>Recent content on Leo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 23:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 19:50:00 -0300</lastBuildDate>
     <atom:link href="https://leotaba.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cubics Ad-venture released!</title>
+      <link>https://leotaba.blog/posts/2026-05-15-cubics-adventure-released/</link>
+      <pubDate>Fri, 15 May 2026 19:50:00 -0300</pubDate>
+      <guid>https://leotaba.blog/posts/2026-05-15-cubics-adventure-released/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;You can play the game directly in your browser at &lt;a href=&#34;https://nekopreto.itch.io/cubics-ad-venture&#34;&gt;itch.io ⤴&lt;/a&gt;!.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;&lt;figure&gt;&#xA;    &lt;a href=&#34;https://leotaba.blog/images/2026-05-15-cubics-adventure-released1.jpeg&#34;&gt;&#xA;        &lt;img src=&#34;https://leotaba.blog/images/2026-05-15-cubics-adventure-released1-resized.jpeg&#34; alt=&#34;Cubics Ad-venture title screen&#34;&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;figcaption&gt;Cubics Ad-venture title screen&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;My nephew and I started developing this game in early 2024. He created the characters, mechanics, and some enemies while I handled the programming. After working on and off on it for two years, &lt;del&gt;I didn&amp;rsquo;t want to pay the Construct 3 license for another year&lt;/del&gt; I decided the game was ready to launch.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Have you played...? A Soace for the Unbound</title>
       <link>https://leotaba.blog/posts/2026-04-29-a-space-for-the-unbound/</link>
