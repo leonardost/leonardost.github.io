@@ -2,20 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://leotaba.blog/tags/have-you-played/</loc>
+    <lastmod>2026-06-17T22:23:10-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/posts/2026-06-17-coralina/</loc>
+    <lastmod>2026-06-17T22:23:10-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/</loc>
+    <lastmod>2026-06-17T22:23:10-03:00</lastmod>
+  </url><url>
+    <loc>https://leotaba.blog/posts/</loc>
+    <lastmod>2026-06-17T22:23:10-03:00</lastmod>
+  </url><url>
     <loc>https://leotaba.blog/posts/2026-05-15-cubics-adventure-released/</loc>
     <lastmod>2026-05-15T19:50:00-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/tags/game-development/</loc>
     <lastmod>2026-05-15T19:50:00-03:00</lastmod>
-  </url><url>
-    <loc>https://leotaba.blog/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://leotaba.blog/posts/</loc>
-    <lastmod>2026-05-15T19:50:00-03:00</lastmod>
-  </url><url>
-    <loc>https://leotaba.blog/tags/have-you-played/</loc>
-    <lastmod>2026-04-29T23:55:00-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/posts/2026-04-29-a-space-for-the-unbound/</loc>
     <lastmod>2026-04-29T23:55:00-03:00</lastmod>
@@ -153,7 +156,7 @@
     <lastmod>2024-02-09T23:44:37-03:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/game-list/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://leotaba.blog/posts/2024-01-14-ann/</loc>
     <lastmod>2024-02-21T00:00:00-03:00</lastmod>
